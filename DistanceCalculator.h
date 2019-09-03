@@ -45,7 +45,7 @@ public:
                 if (distance <= range)
                 {
                     //because we want to arrange the result in alphabetical order based on company name, we create an array of all locations
-                    //in the 100km radius
+                    //in the provided radius
 
                     //always ensure string stream is clear before reconstructing a new string
                     tempLocationString.str(string());
